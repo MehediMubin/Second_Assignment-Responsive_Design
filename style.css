@@ -96,6 +96,20 @@ body {
     font-weight: 900;
 }
 
-/* .gallery-section {
-    margin-bottom: 50px;
-} */
+.gallery-section {
+    margin-bottom: 100px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 30vh;
+    background-color: rgb(7, 7, 32);
+    color: white;
+    text-align: center;
+}
+
+footer .text {
+    margin: 10px 0;
+}
