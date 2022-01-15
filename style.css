@@ -29,7 +29,7 @@ body {
     margin-left: 30px;
 }
 
-.first-section h1 {
+.first-section .section-title {
     font-size: 40px;
     font-weight: 800;
 }
@@ -59,11 +59,43 @@ body {
 
 .first-section button i{
     margin-left: 5px;
-    /* margin-top: 1px; */
     text-align: center;
 }
 
-.gallery-section h1 {
+.gallery-section .section-title {
     text-align: center;
     font-size: 30px;
+    margin-bottom: 50px;
 }
+
+.collection {
+    width: 300px;
+}
+
+.fa-star {
+    color: orange;
+}
+
+.rating {
+    margin: 5px 0;
+}
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+
+
+.gallery-section a {
+    float: right;
+    margin-top: 15px;
+    margin-right: 100px;
+    text-decoration: none;
+    color: #E03B8B;
+    font-weight: 900;
+}
+
+/* .gallery-section {
+    margin-bottom: 50px;
+} */
